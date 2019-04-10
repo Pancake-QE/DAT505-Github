@@ -70,7 +70,7 @@ function onWindowResize() {
 function onDocumentMouseDown( event ) {
   event.preventDefault();
   if ( selectedObject ) {
-    selectedObject.material.color.set( '#69f' );
+    selectedObject.material.color.set( Math.random()*0xffffff );
     selectedObject = null;
   }
 
@@ -81,7 +81,7 @@ function onDocumentMouseDown( event ) {
     } )[ 0 ];
     if ( res && res.object ) {
       selectedObject = res.object;
-      selectedObject.material.color.set( '#f69' );
+      selectedObject.material.color.set( '#f55' );
       console.log(selectedObject.position);
     }
   }
