@@ -27,7 +27,7 @@
   }();
   ```
   
-    ```JavaScript
+ ```JavaScript
    Define the scope of control for each option
     
   var gui = new dat.GUI();
@@ -75,7 +75,7 @@
 }
 ```
 
-   ```JavaScript
+ ```JavaScript
    Random color
    
 function dec2hex(i) {
