@@ -7,10 +7,9 @@ Create many mesh and Mesh consists of geometrys and materials
 function geometry(){
   var material33 = new THREE.MeshNormalMaterial();
 
-  // Create a Cube Mesh with basic material ---------
-  geometry = new THREE.BoxGeometry(40, 20, 20);
+  ` ``geometry = new THREE.BoxGeometry(40, 20, 20);
   material = new THREE.MeshBasicMaterial( { color: "#FF00FF" } );
-  mesh = new THREE.Mesh( geometry, material33 );
+  mesh = new THREE.Mesh( geometry, material33 );` ``
   mesh.position.z = -0;
   mesh.position.x = 0;
 
