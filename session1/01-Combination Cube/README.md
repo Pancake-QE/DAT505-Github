@@ -18,7 +18,7 @@ Create many mesh and Mesh consists of geometrys and materials
   mesh1 = new THREE.Mesh( geometry1, material33 );
   mesh1.position.z = -0;
   mesh1.position.x = 0;
-  scene.add( mesh1 );```
+  scene.add( mesh1 );
   ..........................Many mesh are omitted below
   
 }
