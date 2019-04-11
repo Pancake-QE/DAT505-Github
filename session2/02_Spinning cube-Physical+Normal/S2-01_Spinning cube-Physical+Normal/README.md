@@ -14,7 +14,7 @@ var material = new THREE.MeshPhysicalMaterial({
 });
 
 var material2 = new THREE.MeshNormalMaterial();
-
+```
 
 
 ``` JavaScript
@@ -32,4 +32,4 @@ var render = function () {
   mesh2.rotation.y = rot;
     renderer.render(scene, camera);
 };
-
+```
