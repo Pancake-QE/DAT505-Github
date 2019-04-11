@@ -3,7 +3,7 @@ This is a composite graph.
 
 
 ` ``Create many mesh and Mesh consists of geometrys and materials
-` ``
+
 function geometry(){
   var material33 = new THREE.MeshNormalMaterial();
 
@@ -52,4 +52,4 @@ function geometry(){
   ..........................many mesh
   
 }
-  
+` ``
