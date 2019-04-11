@@ -88,3 +88,4 @@ function dec2hex(i) {
   else if (i >= 1048575 ) { result = '0x' + i.toString(16); }
   if (result.length == 8){return result;}
 }
+```
