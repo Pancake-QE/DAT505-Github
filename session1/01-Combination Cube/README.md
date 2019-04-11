@@ -2,7 +2,7 @@ This is a composite graph.
 ===
 
 
-` ``Create many mesh and Mesh consists of geometrys and materials
+Create many mesh and Mesh consists of geometrys and materials
 
 function geometry(){
   var material33 = new THREE.MeshNormalMaterial();
@@ -34,22 +34,6 @@ function geometry(){
 
   scene.add( mesh2 );
 
-  geometry2 = new THREE.BoxGeometry(20, 40, 20);
-  material2 = new THREE.MeshBasicMaterial( { color: "#F000FF" } );
-  mesh2 = new THREE.Mesh( geometry2, material33 );
-  mesh2.position.z = 40;
-  mesh2.position.x = 60;
-  mesh2.position.y = -50;
-
-  scene.add( mesh2 );
-
-  geometry21 = new THREE.BoxGeometry(20, 40, 40);
-  material21 = new THREE.MeshBasicMaterial( { color: "#F000FF" } );
-  mesh21 = new THREE.Mesh( geometry21, material );
-  mesh21.position.z = 20;
-  mesh21.position.x = 70;
-  mesh21.position.y = -80;
   ..........................many mesh
   
 }
-` ``
