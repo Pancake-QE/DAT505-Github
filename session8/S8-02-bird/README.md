@@ -3,10 +3,10 @@ Replace the model spaceship with a bird
 
 ```JavaScript
 
-
-  for (var i=0; i<50; i++){
 Generate less than 50 models,The model is obtained by loading these two files,birds.mtl and bird.obj
 
+
+  for (var i=0; i<50; i++){
 	var mtlLoader = new THREE.MTLLoader();
 	mtlLoader.load("birds.mtl", function(materials){
 
