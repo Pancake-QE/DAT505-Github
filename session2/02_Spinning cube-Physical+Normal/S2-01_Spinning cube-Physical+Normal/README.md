@@ -1,6 +1,6 @@
 
 
-` ``JavaScript
+```JavaScript
 Materials that define different attributes
 
 var material = new THREE.MeshPhysicalMaterial({
@@ -17,7 +17,7 @@ var material2 = new THREE.MeshNormalMaterial();
 
 
 
-` `` JavaScript
+``` JavaScript
 Let the mesh rotate on the x and y axes
 
 var render = function () {
