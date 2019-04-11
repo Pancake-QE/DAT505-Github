@@ -2,9 +2,9 @@ This is a composite graph.
 ===
 
 
-Create many mesh and Mesh consists of geometrys and materials
-
-` ``function geometry(){
+` ``Create many mesh and Mesh consists of geometrys and materials
+` ``
+function geometry(){
   var material33 = new THREE.MeshNormalMaterial();
 
   // Create a Cube Mesh with basic material ---------
@@ -52,5 +52,4 @@ Create many mesh and Mesh consists of geometrys and materials
   ..........................many mesh
   
 }
-` ``
   
