@@ -2,7 +2,8 @@ This is a composite graph.
 ===
 Create many mesh and Mesh consists of geometrys and materials
 
-```function geometry(){
+```
+function geometry(){
   var material33 = new THREE.MeshNormalMaterial();
 
   geometry = new THREE.BoxGeometry(40, 20, 20);
